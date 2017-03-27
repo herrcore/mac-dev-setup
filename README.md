@@ -36,6 +36,7 @@ If you have any comments or suggestions, feel free to give me a shout [on Twitte
 - [Elasticsearch](#elasticsearch)
 - [Projects folder](#projects-folder)
 - [Apps](#apps)
+- [Optional Analysis Tools](#optional-analysis-tools)
 
 ## System update
 
@@ -939,6 +940,22 @@ Here is a quick list of some apps I use, and that you might find useful as well:
 - [Evernote](https://evernote.com/): If I don't write something down, I'll forget it. As a developer, you learn so many new things every day, and technology keeps changing, it would be insane to want to keep it all in your head. So take notes, sync them to the cloud, and have them on all your devices. To be honest, I switched to [Simplenote](http://simplenote.com/) because I only take text notes, and I got tired of Evernote putting extra spaces between paragraphs when I copy & pasted into other applications. Simplenote is so much better for text notes (and it supports Markdown!). **(Both are free)**
 - [Moom](http://manytricks.com/moom/): Don't waste time resizing and moving your windows. Moom makes this very easy. **($10)**
 
+## Optional Analysis Tools
 
+In addition to the development tools listed above here are a few analysis tools that I use daily.
+
+### Strings with unicode support
+
+The default strings utility bundled with OSX does not support unicode strings, luckily [@williballenthin](https://github.com/williballenthin) wrote a small python script to fix this which I later wrapped with some command switches. This script is not a full replacement for strings so we will install it in parallel as “ustrings”.
+
+Download the script to your **/usr/local/bin/** directory.
+```
+curl -o /usr/local/bin/ustrings https://gist.githubusercontent.com/herrcore/0b66bef7e844187169a966ef606de563/raw/af459061a7164a1f154eb85cf29860e19dcea237/strings.py
+```
+
+Ensure the downloaded script is executable. 
+```
+chmod +x /usr/local/bin/ustrings 
+```
 
 
