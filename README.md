@@ -64,7 +64,7 @@ mkdir ~/Library/KeyBindings/
 Then copy the DefaultKeyBinding.dict file from this repository into the newly created directory.
 ```
 cd ~/Library/KeyBindings/
-curl -O https://raw.githubusercontent.com/nicolashery/mac-dev-setup/2.0/DefaultKeyBinding.dict
+curl -O https://raw.githubusercontent.com/herrcore/mac-dev-setup/2.0/DefaultKeyBinding.dict
 ```
 
 **Note:** you will need to log out and back in before the new bindings take effect. 
