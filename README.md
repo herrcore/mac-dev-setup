@@ -16,6 +16,7 @@ If you have any comments or suggestions, feel free to give me a shout [on Twitte
 
 - [System update](#system-update)
 - [System preferences](#system-preferences)
+- [Keyboard: Home and End Keys](#keyboard-home-and-end-keys)
 - [Security](#security)
 - [Google Chrome](#google-chrome)
 - [iTerm2](#iterm2)
@@ -50,6 +51,42 @@ In **Apple Icon > System Preferences**:
 - Keyboard > Key Repeat > Fast (all the way to the right)
 - Keyboard > Delay Until Repeat > Short (all the way to the right)
 - Dock > Automatically hide and show the Dock
+
+## Keyboard: Home and End Keys
+
+By default the Home and End key behaviour is either non-existent or just plain wrong. We can fix this by rebinding the keys with saner defaults. 
+
+First create **~/Library/KeyBindings** directory if one doesn’t already exist. 
+```
+mkdir ~/Library/KeyBindings/
+```
+
+Then copy the DefaultKeyBinding.dict file from this repository into the newly created directory.
+```
+cd ~/Library/KeyBindings/
+curl -O https://raw.githubusercontent.com/nicolashery/mac-dev-setup/2.0/DefaultKeyBinding.dict
+```
+
+**Note:** you will need to log out and back in before the new bindings take effect. 
+
+### Add new bindings to Terminal
+Though this guide recommends using iTerm2 if you prefer to use Terminal you will need to make some additional adjustments before the new key bindings will work with Terminal.
+
+In **Terminal > Preferences... > Keyboard** use + to add new keys (\033 is ‘esc’):
+
+**Home**
+```
+Key: Home
+Modifier: None
+Action: Send Text: \033OH
+```
+
+**End**
+```
+Key: End
+Modifier: None
+Action: Send Text: \033OF
+```
 
 ## Security
 
