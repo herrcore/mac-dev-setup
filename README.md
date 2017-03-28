@@ -958,13 +958,6 @@ Ensure the downloaded script is executable.
 chmod +x /usr/local/bin/ustrings 
 ```
 
-### Paid Applications 
-
-I try to use OSS tools as much as possible but there are a few exceptions.
-
-- [Synalyze It (hex editor)](http://appstore.com/mac/synalyzeitpro)
-- [VMWare Fusion](http://store.vmware.com/buyfusion)
-
 ### One-Click Installers
 
 Most of the tools I use can be installed via pip or home-brew. The following are tools that require a standalone one-click installer.
