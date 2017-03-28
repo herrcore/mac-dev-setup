@@ -958,4 +958,28 @@ Ensure the downloaded script is executable.
 chmod +x /usr/local/bin/ustrings 
 ```
 
+### Paid Applications 
+
+I try to use OSS tools as much as possible but there are a few exceptions.
+
+- [Synalyze It (hex editor)](http://appstore.com/mac/synalyzeitpro)
+- [VMWare Fusion](http://store.vmware.com/buyfusion)
+
+### One-Click Installers
+
+Most of the tools I use can be installed via pip or home-brew. The following are tools that require a standalone one-click installer.
+
+- [Wireshark](https://www.wireshark.org/#download)
+- [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [jd-gui (Java Decompiler)](http://jd.benow.ca/#jd-gui-download)
+- [caffeine](http://lightheadsw.com/caffeine/)
+- [TOR Browser (Not secure, see warnings!!)](https://www.torproject.org/projects/torbrowser.html.en#downloads)
+- [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
+
+### Paid Applications 
+
+I try to use OSS tools as much as possible but there are a few exceptions.
+
+- [Synalyze It (hex editor)](http://appstore.com/mac/synalyzeitpro)
+- [VMWare Fusion](http://store.vmware.com/buyfusion)
 
