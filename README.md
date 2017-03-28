@@ -22,6 +22,7 @@ If you have any comments or suggestions, feel free to give me a shout [on Twitte
 - [IPython](#ipython)
 - [Numpy and Scipy](#numpy-and-scipy)
 - [MySQL](#mysql)
+- [Javascript cli](#javascript-cli)
 - [Node.js](#nodejs)
 - [JSHint](#jshint)
 - [Ruby and RVM](#ruby-and-rvm)
@@ -498,6 +499,22 @@ To connect with the command-line client, run:
 In terms of a GUI client for MySQL, I'm used to the official and free [MySQL Workbench](http://www.mysql.com/products/workbench/). But feel free to use whichever you prefer.
 
 You can find the MySQL Workbench download [here](http://www.mysql.com/downloads/workbench/). (**Note**: It will ask you to sign in, you don't need to, just click on "No thanks, just start my download!" at the bottom.)
+
+## Javascript cli
+
+If you want a simple way to test a few lines of Javascript you can use the built in Javascript interpreter from the command line. Simply link so you don't have to remember the location.
+
+```
+sudo ln -s /System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc /usr/local/bin/jsc
+```
+
+### jsc usage
+Now you can simply start the Javascript interpreter from the command line.
+
+```
+jsc
+>>> 
+```
 
 ## Node.js
 
