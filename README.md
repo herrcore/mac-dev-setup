@@ -5,6 +5,7 @@ TODO:
 - [GitHub Desktop](https://desktop.github.com/)
 - [WagonHQ](https://www.wagonhq.com/)
 - git autocomplete `curl -O https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash` https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks
+- secure the beast https://github.com/kristovatlas/osx-config-check
 
 This document describes how I set up my developer environment on a new MacBook or iMac. We will set up popular programming languages (for example [Node](http://nodejs.org/) (JavaScript), [Python](http://www.python.org/), and [Ruby](http://www.ruby-lang.org/)). You may not need all of them for your projects, although I recommend having the three first three set up as they always come in handy.
 
